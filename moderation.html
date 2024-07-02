@@ -75,6 +75,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://discord.com/oauth2/authorize?client_id=887984332239683604&permissions=564052620209271&scope=applications.commands+bot">Invite the bot</a>
+                </li>
             </ul>
         </div>
     </nav>
@@ -88,14 +91,14 @@
             so the bot can mute the user for the specified period, and also <a href="reasons.html#add_reason">set up reasons</a> before you run this command.
             This command is only accessible to users with the moderator role.</p>
 
-            <img src="placeholder.png" alt="Punish command image" class="img-fluid">
+            <img src="assets\punish.png" alt="Punish command image" class="img-fluid">
         </section>
         <section id="multipunish">
             <h2>Multipunish</h2>
             <p>Description: The <code>/multipunish</code> command is used to punish multiple users at once.</p>
             <p>Arguments: <code>user_ids</code>, <code>violation</code>, <code>reason</code></p>
             <p>Works exactly like <code>/punish</code>. Only difference is you can punish multiple users at once.</p>
-            <img src="placeholder.png" alt="Multipunish command image" class="img-fluid">
+            <img src="assets\multipunish.png" alt="Multipunish command image" class="img-fluid">
         </section>
         <section id="uinfo">
             <h2>Uinfo</h2>
@@ -104,14 +107,14 @@
             <p>This command is used to check userinfo of a particular user. It can take either either the <code>user_id</code>
             in case the user is not in the server, or <code>user</code> for convenience. It displays a table with all the data of the 
             user, including their punishments and bans. Also displays moderator information.</p>
-            <img src="placeholder.png" alt="Uinfo command image" class="img-fluid">
+            <img src="assets\uinfo.png" alt="Uinfo command image" class="img-fluid">
         </section>
         <section id="kick">
             <h2>Kick</h2>
             <p>Description: The <code>/kick</code> command kicks a user from the server.</p>
             <p>Arguments: <code>user_id</code>, <code>reason</code></p>
             <p>Kicks the user from the server. Only users with <a href="configuration.html#set_ban_roles">ban permissions</a> can use this command.</p>
-            <img src="placeholder.png" alt="Kick command image" class="img-fluid">
+            <img src="assets\kick.png" alt="Kick command image" class="img-fluid">
         </section>
         <section id="ban">
             <h2>Ban</h2>
@@ -119,7 +122,7 @@
             <p>Arguments: <code>user_id</code>, <code>reason</code></p>
             <p>Bans the user from the server, and also creates a note in the audit log with the <i>moderator name, ban reason and date</i>
                 of the ban. Only executable by users with <a href="configuration.html#set_ban_roles">ban permissions</a>.</p>
-            <img src="placeholder.png" alt="Ban command image" class="img-fluid">
+            <img src="assets\ban.png" alt="Ban command image" class="img-fluid">
         </section>
         <section id="unban">
             <h2>Unban</h2>
@@ -127,7 +130,7 @@
             <p>Arguments: <code>user_id</code>, <code>reason</code></p>
             <p>Unbans the user from the server. Adds the reason into the audit log of the server.
                  Only executable by users with <a href="configuration.html#set_ban_roles">ban permissions</a>.</p>
-            <img src="placeholder.png" alt="Unban command image" class="img-fluid">
+            <img src="assets\unban.png" alt="Unban command image" class="img-fluid">
         </section>
         <section id="end_poll">
             <h2>End Poll</h2>
@@ -135,7 +138,7 @@
             <p>Arguments: <code>poll_id</code></p>
             <p>Ends the polls that are ongoing about the user who has crossed the threshold of <b>10 points.</b> The polls automatically
             last for 24 hours and send a notification when complete. Once the poll is closed, necessary action can be taken.</p>
-            <img src="placeholder.png" alt="End Poll command image" class="img-fluid">
+            <img src="assets\endpoll.png" alt="End Poll command image" class="img-fluid">
         </section>
     </main>
     
